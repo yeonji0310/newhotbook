@@ -1,0 +1,275 @@
+
+    body{
+      margin: 0;
+        }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-size:15px;
+      text-align: left;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+      background-color: rgb(141,198,63);
+      color: white;
+    }
+    h3{
+        text-align: center;
+        
+        padding:20px;
+        margin-top:20px;
+        background-color: rgb(241,241,241);
+    }
+      #grid{
+        display: grid;
+        grid-template-columns: 15% 50% 35%;
+        margin-top:-10px;
+        
+      }
+      #grid ol{
+        padding-left:50px;
+      }
+      #grid #article {
+        padding-left:200px;
+      }
+    img{
+        position:block;
+        width: 105px;
+        height: 140px;
+        grid-column: 1;
+        top:-47%;
+        margin-left:-86%;
+        z-index:10;
+
+    }
+    .form-group {
+        margin-top: -88px; 
+        margin-left: 360px;
+    }
+    ol{
+        margin-left: 10%;
+      font-size: medium;
+    }
+    
+    #wherecampus{
+
+        position:relatvie;
+        margin-top:  20px;
+        margin-left: 90%;
+        margin-bottom: -30x;
+        
+        
+
+    }
+
+    button{
+        background-color: white;
+        border-color: rgb(141,198,63);
+        border-radius: 10%;
+        
+    }
+
+    #tothetop{
+        position:fixed;
+        right:2px;
+        bottom:80px;
+    }
+    .title{
+        color:rgb(21,53,175);
+        font-weight: bold;
+        font-size: large;
+    }
+    .Where,.data{
+        font-weight: bold;
+    }
+    ul{
+      
+      font-size: medium;
+      list-style: none;
+    }
+    li{
+      line-height: 2.5em;
+      font-size: medium;
+      
+    }
+    #data{
+      margin-bottom: 20px;
+      line-height: 200px;
+      position: relative;
+    }
+    .button1{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+     
+    }
+    .button1:hover{
+     
+      background: none;
+
+    }
+    .button2{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+     
+    }
+    .button2:hover{
+     
+      background: none;
+
+    }
+    .button3{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button3:hover{
+     
+      background: none;
+
+    }
+    .button4{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button4:hover{
+     
+      background: none;
+
+    }
+    .button5{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button5:hover{
+     
+      background: none;
+
+    }
+    .button6{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button6:hover{
+     
+      background: none;
+
+    }
+    .button7{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button7:hover{
+     
+      background: none;
+
+    }
+    .button8{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button8:hover{
+     
+      background: none;
+
+    }
+    .button9{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button9:hover{
+     
+      background: none;
+
+    }
+    .button10{
+      left:300px;
+      top:-75px;
+      position: relative;
+      border-radius: 5px;
+      background: none;
+      cursor: pointer;
+      transition: background 0.5s ease;
+    }
+    .button10:hover{
+     
+      background: none;
+
+    }
+    .active#heart:before,.active#heart:after{
+      background: red !important;
+    }
+    #heart {
+        width: 100px;
+        height: 90px;
+        transition: background 0.5s ease;
+      
+    }
+    #heart:before,
+    #heart:after {
+      transition: background 0.5s ease;
+        position: absolute;
+        content: "";
+        left: 50px;
+        top: 0;
+        width: 50px;
+        height: 80px;
+        background: dimgrey;
+        border-radius: 50px 50px 0 0;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+    }
+    #heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin :100% 100%;
+      
+    }
+      
+    
